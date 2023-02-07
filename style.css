@@ -6,7 +6,7 @@ header{
     background: #FFF8F3;
 }
 section{
-    margin-top: 30px;
+    margin: 80px 20px;
 }
 .top-container{
     display: flex;
@@ -18,6 +18,7 @@ section{
 }
 .name{
     padding-left: 50px;
+    font-size: 35px;
 }
 .navigation{
     display: flex;
@@ -34,6 +35,7 @@ section{
     border: none;
     font-size: 24px;
     border-radius: 4px;
+    
 }
 .top-info-container{
     display: flex;
@@ -92,4 +94,87 @@ section{
 }
 .about-info h4{
   color: #757575;
+}
+/* what i do styles */
+.what-do{
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0;
+}
+.cart-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.single-cart{
+    height: 300px;
+    width: 265px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 20px;
+}
+.cart-title h2{
+    margin: 20px 0;
+    
+}
+.single-cart p{
+    color: #757575;
+}
+/* resume part style */
+.cv-content{
+    display: flex;
+}
+.education{
+    width: 45%;
+    margin: auto;
+}
+.exprience{
+    width: 45%;
+    margin: auto;
+}
+.qualities{
+    padding: 15px 0px;
+
+}
+.qualities span,p{
+    color: #757575;
+    margin-top: 10px;
+}
+.qualities h3{
+    font-size: 25px;
+    color: #888787;;
+}
+.center-cv{
+    text-align: center;
+    margin: 40px 0;
+}
+/* footer part */
+.contact-me{
+    display: flex;
+    background: #FFF8F3;
+}
+.connect{
+ padding: 100px;
+}
+.connect h3,.message h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.connect p{
+    margin: 20px 0;
+}
+.message{
+    padding: 100px;
+}
+.message input,textarea{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    box-shadow: 10px 5px 12px gray;
+    margin: 5px;
+    border-radius: 6px;
+}
+.submit{
+    margin-top: 20px;
 }
